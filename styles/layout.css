@@ -194,6 +194,8 @@ footer form button:hover {
 .border-lg { border: var(--border-lg); }
 .border-transparent { border: var(--border-transparent); }
 
+.border-bottom-sm { border-bottom: var(--border-sm);}
+
 /* 
             COLORED BAR 
 */
