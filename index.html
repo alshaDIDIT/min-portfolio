@@ -1,0 +1,215 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PJJ Entreprenad</title>
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+    <script
+        src="https://kit.fontawesome.com/6af61cf4bd.js"
+        crossorigin="anonymous"></script>
+    
+
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/flex.css" rel="stylesheet">
+    <link href="styles/layout.css" rel="stylesheet">
+    <link href="styles/mediaqueries.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAV-BAR -->
+    <nav class="d-flex max-width justify-content-between align-items-center bg-dark shadow-lg mx-auto p-4">
+        <p class="text-size-xl text-bold text-dight text-dight ls-sm">YOUSSEF AL SHADIDI</p>
+        
+        <!-- MID LINKS -->
+        <div class="d-flex justify-content-between m--4 d-sm-none text-bold">
+            <a href="index.html" class="d-flex flex-column align-items-center text-decoration-none">
+                <div class="d-flex align-items-center justify-content-center">
+                    <i class="fa fa-home text-size-xxl"></i>
+                </div>
+                <!-- <span class="mt-4 lh-sm">Hem</span> -->
+            </a>
+
+            <a href="portfolio.html" class="d-flex flex-column align-items-center text-decoration-none">
+                <div class="d-flex align-items-center justify-content-center">
+                    <i class="fas fa-suitcase text-size-xxl"></i>
+                </div>
+                <!-- <span class="mt-4 lh-sm">Bygg</span> -->
+            </a>
+
+            <a href="cv.html" class="d-flex flex-column align-items-center text-decoration-none">
+                <div class="d-flex align-items-center justify-content-center">
+                    <i class="fas fa-book text-size-xxl"></i>
+                </div>
+                <!-- <span class="mt-4 lh-sm">Mark</span> -->
+            </a>
+
+            <a href="#footer" id="footer-link" class="d-flex flex-column align-items-center text-decoration-none">
+                <div class="d-flex align-items-center justify-content-center">
+                    <i class="fas fa-at text-size-xxl"></i>
+                </div>
+                <!-- <span class="mt-4 lh-sm">Kontakt</span> -->
+            </a>
+        </div>
+
+        <div class="d-flex justify-content-between bars">
+            <a class="d-flex flex-column align-items-center text-decoration-none position-relative d-none d-sm-block">
+                <div class="d-flex align-items-center justify-content-center bg-warning border-radius p-4 shadow-sm">
+                    <i class="fa fa-bars text-white"></i>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- NAV SUB-BAR -->
+    <section class="d-flex max-width justify-content-center align-items-center mx-auto border-radius shadow-sm">
+        <h2 class="fw-sm text-uppercase">index</h2>
+    </section>
+
+    <!-- WELCOME SIGN -->
+    <section class="d-flex flex-column justify-content-center align-items-center mt-12 mb-15">
+        <h1 class="display text-uppercase">VÄLKOMMEN</h1>
+    </section>
+
+    <!-- PORTFOLIO/CV -->
+    <section class="d-flex max-width justify-content-center align-items-center mx-auto bg-secondary border-radius shadow-sm mb-15">
+        <div class="d-flex justify-content-between p-15">
+            <div class="bg-dight border-radius-left">
+                <h1><i class="far fa-dot-circle p-4 mt-10 ml-4 mr-8"></i></h1>
+            </div>
+
+            <a class="text-dark" href="portfolio.html">
+                <div class="d-flex justify-content-center bg-dight p-6">
+                    <h1 class="fw-sm"><i class="fas fa-suitcase text-size-xxl mb-1 mr-8"></i>PORTOLIO</h1>
+                </div>
+            </a>
+            
+            <div class="bg-dight">
+                <h1><i class="far fa-dot-circle p-4 mt-10 ml-4 mr-8"></i></h1>
+            </div>
+
+            <a class="text-dark" href="cv.html">
+                <div class="d-flex justify-content-center bg-dight p-6">
+                    <h1 class="fw-sm"><i class="fas fa-book text-size-xxl mb-1 mr-8"></i>CV</h1>
+                </div>
+            </a>
+
+            <div class="bg-dight border-radius-right">
+                <h1><i class="far fa-dot-circle p-4 mt-10 mr-4 ml-8"></i></h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT YOUSSEF -->
+    <section class="mt-lg">
+        <!-- YOUSSEF -->
+        <section class="d-flex max-width-mini justify-content-center align-items-center border-radius shadow-lg mx-auto my-6">
+            <div class="width-lg bg-secondary p-6 flex-grow text-dight min-height-md position-relative">
+                <i class="fas fa-user text-dark text-size-xxl position-absolute icon-form-control"></i>
+                <h2 class="fw-sm text-size-xl text-center"><i class="far fa-dot-circle p-2 mr-2"></i> Profil</h2>
+
+                <h2 class="fw-sm text-dark"><i class="fas fa-signature text-dark text-dight ml-4 mr-6"></i>Youssef Al Shadidi</h2>
+                <h2 class="fw-xs"><i class="fas fa-globe text-dight ml-4 mr-8"></i>Systemutvecklare</h2>
+                <h2 class="fw-sm text-dark"><i class="fas fa-code text-dark text-dight ml-4 mr-4"></i>Java & .NET</h2>
+            </div>
+            
+            <div class="width-lg flex-grow min-height-md first-image"></div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="d-flex flex-wrap max-width-mini justify-content-center align-items-center border-radius shadow-lg mx-auto my-6">
+            <div class="d-flex width-lg justify-content-between flex-grow min-height-md first-image"></div>
+
+            <div class="width-lg bg-secondary p-6 flex-grow text-dight min-height-md position-relative">
+                <i class="fas fa-heart text-danger text-size-xxl position-absolute icon-form-control"></i>
+                <h2 class="fw-sm text-size-xl text-center"><i class="far fa-dot-circle p-2 mr-2"></i> Älskar att...</h2>
+
+                <h2 class="fw-sm text-dark"><i class="fas fa-chalkboard-teacher text-dark text-dight ml-4 mr-6"></i>Lära mig</h2>
+                <h2 class="fw-xs"><i class="fas fa-lightbulb text-dight ml-6 mr-8"></i>Lösa problem</h2>
+                <h2 class="fw-sm text-dark"><i class="fas fa-music text-dight text-dark ml-4 mr-6"></i>Producera musik</h2>
+            </div>
+        </section>
+
+        <!-- FOCUS -->
+        <section class="d-flex max-width-mini justify-content-center align-items-center border-radius shadow-lg mx-auto mt-6 mb-15">
+            <div class="width-lg bg-secondary p-6 flex-grow text-dight min-height-md position-relative">
+                <i class="fas fa-brain text-warning text-size-xxl position-absolute icon-form-control"></i>
+                <h2 class="fw-sm text-size-xl text-center"><i class="far fa-dot-circle p-2 mr-2"></i> Fokuserar på...</h2>
+
+                <h2 class="fw-sm text-dark"><i class="fas fa-dumbbell text-dark text-dight ml-4 mr-6"></i>Träning</h2>
+                <h2 class="fw-xs"><i class="fas fa-book-open text-dight ml-4 mr-8"></i>Kunskap</h2>
+                <h2 class="fw-sm text-dark"><i class="fas fa-heartbeat text-dark text-dight ml-4 mr-8"></i>Hälsa</h2>
+            </div>
+            
+            <div class="width-lg flex-grow min-height-md first-image"></div>
+        </section>
+    </section>
+
+    <!-- BODY END -->
+    <section class="d-flex max-width justify-content-center align-items-center mx-auto bg-dark border-radius shadow-sm py-8">
+        <div class="d-flex flex-column justify-content-center align-items-center py-8">
+            <h1 class="fw-xs text-dight text-uppercase">
+                <i class="fas fa-map-marker text-secondary mb-1 mr-4"></i>
+                HÄR HITTAR DU MIG
+            </h1>
+            <!-- <h2 class="fw-xs text-dight text-uppercase">
+                kontakt uppgifter
+            </h2> -->
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center max-width m-15 flex-sm-column">
+            <!-- ADRESS -->
+            <div class="d-flex flex-column width-lg mr-6">
+                <p class="text-size-xl text-bold ls-sm">YOUSSEF AL SHADIDI</p>
+                <p class="mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Numquam repellat laudantium reiciendis omnis ipsam!</p>
+                <p class="mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, saepe!</p>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fab fa-linkedin text-size-lg text-dark mr-4"></i>
+                    <span>linked in</span>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-at text-size-lg text-dark mr-4"></i>
+                    <span>youssef.as@gmail.com</span>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fab fa-github text-size-lg text-dark mr-4"></i>
+                    <span>alshaDIDIT</span>
+                </div>
+            </div>
+
+            <!-- FORM -->
+            <form class="d-flex flex-column flex-grow mt-sm-12">
+                <p class="text-size-xl text-bold ls-xs text-uppercase">Kontakta mig</p>
+                <div class="position-relative mb-2">
+                    <i class="fa fa-user text-dark position-absolute icon-form-control"></i>
+                    <input type="text" placeholder="Förnamn" class="border-color-dark border-xs border-radius lh-md p-4 min-width-xxl">
+                </div>
+                <div class="position-relative mb-2">
+                    <i class="fa fa-at text-dark position-absolute icon-form-control"></i>
+                    <input type="text" placeholder="Email" class="border-color-dark border-xs border-radius lh-md p-4 min-width-xxl">
+                </div>
+                <div class="position-relative mb-2">
+                    <i class="fa fa-comments text-dark position-absolute icon-form-control"></i>
+                    <textarea placeholder="Skriv ditt meddelande..." style="resize: none;" class="border-color-dark border-bottom-xs border-radius lh-md p-4 min-width-xxl"></textarea>
+                </div>
+                <button class="btn-dark shadow-sm text-size-lg text-uppercase border-transparent text-white p-6 border-radius">Skicka</button>
+            </form>
+        </div>
+    </footer>
+    
+</body>
