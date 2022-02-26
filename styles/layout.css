@@ -4,6 +4,7 @@
 .max-width { max-width: 192rem; }
 .max-width-mini { max-width: 96rem; }
 .card-width { max-width: 60rem; }
+.width-md { max-width: 25%; }
 .width-lg { max-width: 50%; }
 .min-width-xxl { min-width: 100%; }
 
@@ -195,7 +196,7 @@ footer form button:hover {
 .img-logo-md { bottom: 0;}
 .slider-icon-sm { left: 1.5rem;}
 .welcome-width { max-width: 35%; }
-.bygg-mark-width { max-width: 30rem; }
+.profile-width { max-width: 30rem; }
 .title-header {
     max-width: 35%;
 }
