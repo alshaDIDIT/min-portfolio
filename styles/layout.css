@@ -57,6 +57,8 @@
 .mt-lg, .my-lg { margin-top: 8rem; }
 .mb-lg, .my-lg { margin-bottom: 8rem; } /* 4rem */
 
+.mr-2, .mx-2 { margin-right: var(--distance-2); }
+.ml-2, .mx-2 { margin-left: var(--distance-2); }
 .mr-4, .mx-4 { margin-right: var(--distance-4); }
 .ml-4, .mx-4 { margin-left: var(--distance-4); }
 .mr-6, .mx-6 { margin-right: var(--distance-6); }
@@ -83,8 +85,26 @@
 
 .pr-4, .px-4 { padding-right: var(--distance-4); }
 .pl-4, .px-4 { padding-left: var(--distance-4); }
+.pr-6, .px-6 { padding-right: var(--distance-6); }
+.pl-6, .px-6 { padding-left: var(--distance-6); }
+.pr-8, .px-8 { padding-right: var(--distance-8); }
+.pl-8, .px-8 { padding-left: var(--distance-8); }
+.pr-10, .px-10 { padding-right: var(--distance-10); }
+.pl-10, .px-10 { padding-left: var(--distance-10); }
 .pr-12, .px-12 { padding-right: var(--distance-12); }
 .pl-12, .px-12 { padding-left: var(--distance-12); }
+.pr-15, .px-15 { padding-right: var(--distance-15); }
+.pl-15, .px-15 { padding-left: var(--distance-15); }
+.pr-16, .px-16 { padding-right: var(--distance-16); }
+.pl-16, .px-16 { padding-left: var(--distance-16); }
+.pr-17, .px-17 { padding-right: var(--distance-17); }
+.pl-17, .px-17 { padding-left: var(--distance-17); }
+.pr-18, .px-18 { padding-right: var(--distance-18); }
+.pl-18, .px-18 { padding-left: var(--distance-18); }
+.pr-19, .px-19 { padding-right: var(--distance-19); }
+.pl-19, .px-19 { padding-left: var(--distance-19); }
+.pr-20, .px-20 { padding-right: var(--distance-20); }
+.pl-20, .px-20 { padding-left: var(--distance-20); }
 
 .pt-2, .py-2 { padding-top: var(--distance-2); }
 .pb-2, .py-2 { padding-bottom: var(--distance-2); }
@@ -190,8 +210,15 @@ footer form button:hover {
 */
 .logo-width { max-width: 15rem; }
 .gallery-img { width: 20rem;}
-.logo-md-width { max-width: 25%; }
+.logo-md-width {
+    max-width: 8rem;
+    max-height: 2.5rem;
+}
 .logo-lg-width { max-width: 35%; }
+.vine-sm-width { max-width: 15%; }
+.vine-md-width { max-width: 20%; }
+.vine-lg-width { max-width: 26%; }
+.vine-xl-width { max-width: 35%; }
 .img-lg-width { max-width: 60%; }
 .img-logo-md { bottom: 0;}
 .slider-icon-sm { left: 1.5rem;}
@@ -260,4 +287,14 @@ footer form button:hover {
 #footer-link {
     scroll-behavior: smooth;
     transition: ease-in;
+}
+
+/* 
+            HOLD SIDE
+*/
+.hold-left {
+    left: 0;
+}
+.hold-right {
+    right: 0;
 }
