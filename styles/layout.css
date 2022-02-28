@@ -3,6 +3,7 @@
 */
 .max-width { max-width: 192rem; }
 .max-width-mini { max-width: 96rem; }
+.max-width-sm { max-width: 27rem; }
 .card-width { max-width: 60rem; }
 .width-md { max-width: 25%; }
 .width-lg { max-width: 50%; }
@@ -54,8 +55,14 @@
 .mb-12, .my-12 { margin-bottom: var(--distance-12); } /* 3rem */
 .mt-15, .my-15 { margin-top: var(--distance-15); }
 .mb-15, .my-15 { margin-bottom: var(--distance-15); } /* 4rem */
-.mt-lg, .my-lg { margin-top: 8rem; }
-.mb-lg, .my-lg { margin-bottom: 8rem; } /* 4rem */
+.mt-md, .my-md { margin-top: 4rem; }
+.mb-md, .my-md { margin-bottom: 4rem; }
+.mt-lg, .my-lg { margin-top: 6rem; }
+.mb-lg, .my-lg { margin-bottom: 6rem; }
+.mt-xl, .my-xl { margin-top: 8rem; }
+.mb-xxl, .my-xxl { margin-bottom: 8rem; }
+.mt-xxl, .my-xxl { margin-top: 10rem; }
+.mb-xxl, .my-xxl { margin-bottom: 10rem; }
 
 .mr-1, .mx-1 { margin-right: var(--distance-1); }
 .ml-1, .mx-1 { margin-left: var(--distance-1); }
@@ -77,6 +84,8 @@
 /*
             PADDINGS
 */
+.p-0 { padding: var(--distance-0); }
+.p-1 { padding: var(--distance-1); }
 .p-2 { padding: var(--distance-2); }
 .p-3 { padding: var(--distance-3); }
 .p-4 { padding: var(--distance-4); }
@@ -87,6 +96,8 @@
 .p-12 { padding: var(--distance-12); }
 .p-15 { padding: var(--distance-15); }
 
+.pr-2, .px-2 { padding-right: var(--distance-2); }
+.pl-2, .px-2 { padding-left: var(--distance-2); }
 .pr-4, .px-4 { padding-right: var(--distance-4); }
 .pl-4, .px-4 { padding-left: var(--distance-4); }
 .pr-6, .px-6 { padding-right: var(--distance-6); }
@@ -110,10 +121,16 @@
 .pr-20, .px-20 { padding-right: var(--distance-20); }
 .pl-20, .px-20 { padding-left: var(--distance-20); }
 
+.pt-0, .py-0 { padding-top: var(--distance-0); }
+.pb-0, .py-0 { padding-bottom: var(--distance-0); }
+.pt-1, .py-1 { padding-top: var(--distance-1); }
+.pb-1, .py-1 { padding-bottom: var(--distance-1); }
 .pt-2, .py-2 { padding-top: var(--distance-2); }
 .pb-2, .py-2 { padding-bottom: var(--distance-2); }
 .pt-4, .py-4 { padding-top: var(--distance-4); }
 .pb-4, .py-4 { padding-bottom: var(--distance-4); }
+.pt-6, .py-6 { padding-top: var(--distance-6); }
+.pb-6, .py-6 { padding-bottom: var(--distance-6); }
 .pt-8, .py-8 { padding-top: var(--distance-8); }
 .pb-8, .py-8 { padding-bottom: var(--distance-8); }
 
@@ -166,6 +183,9 @@
  */
  .shadow-sm { box-shadow: var(--shadow-small-light); }
  .shadow-lg { box-shadow: var(--shadow-large-light); }
+ .shadow-lg-left { box-shadow: var( --shadow-large-light-left); }
+
+
 
 /* 
             BUTTONS
@@ -215,7 +235,7 @@ footer form button:hover {
 .vine-sm-width { max-width: 15%; }
 .vine-md-width { max-width: 20%; }
 .vine-lg-width { max-width: 26%; }
-.vine-xl-width { max-width: 28%; }
+.vine-xl-width { max-width: 35%; }
 .img-lg-width { max-width: 60%; }
 .img-logo-md { bottom: 0;}
 .slider-icon-sm { left: 1.5rem;}
@@ -244,8 +264,9 @@ footer form button:hover {
     height: 6.2rem;
     line-height: 6rem;
 }
+
 .icon-form-control { right: 10px; top: 10px; }
-.icon-form-control-left { right: 10px; bottom: 10px; }
+.icon-form-control-left { right: 2rem; bottom: 2.4rem; }
 
 /* 
             BACKGROUND IMAGES
@@ -260,6 +281,10 @@ footer form button:hover {
 }
 #love {
     background-image: url('../assets/about/love.jpg');
+    background-repeat: no-repeat; background-size: cover; background-position: center;
+}
+#like {
+    background-image: url('../assets/about/like.jpg');
     background-repeat: no-repeat; background-size: cover; background-position: center;
 }
 
@@ -286,4 +311,34 @@ footer form button:hover {
 }
 .hold-right {
     right: 0;
+}
+
+/* OPACITY */
+
+.opacity-1 {
+    opacity: 0.1;
+}
+.opacity-3 {
+    opacity: 0.3;
+}
+.opacity-2 {
+    opacity: 0.2;
+}
+.opacity-4 {
+    opacity: 0.4;
+}
+.opacity-5 {
+    opacity: 0.5;
+}
+.opacity-6 {
+    opacity: 0.6;
+}
+.opacity-7 {
+    opacity: 0.7;
+}
+.opacity-8 {
+    opacity: 0.8;
+}
+.opacity-9 {
+    opacity: 0.9;
 }
