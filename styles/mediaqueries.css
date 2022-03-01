@@ -91,6 +91,10 @@
         margin: auto;
         padding-left: 4rem;
     }
+    .add-mr {
+        margin-left: 7%;
+        margin-right: 2%;
+    }
 }
 
 @media only screen and (max-width: 62.5em) { /* 1100px / 16px = 68.75em */

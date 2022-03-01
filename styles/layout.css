@@ -4,10 +4,12 @@
 .max-width { max-width: 192rem; }
 .max-width-mini { max-width: 96rem; }
 .max-width-sm { max-width: 27rem; }
+.max-width-xs { max-width: 15rem; }
 .card-width { max-width: 60rem; }
 .width-md { max-width: 25%; }
 .width-lg { max-width: 50%; }
 .min-width-xxl { min-width: 100%; }
+.max-width-xxl { max-width: 100%; }
 
 /*
             HEIGHTS
@@ -44,7 +46,9 @@
 .mt-2, .my-2 { margin-top: var(--distance-2); }
 .mb-2, .my-2 { margin-bottom: var(--distance-2); } /* .5rem */
 .mt-4, .my-4 { margin-top: var(--distance-4); }
-.mb-4, .my-4 { margin-bottom: var(--distance-4); } /* 1rem */
+.mb-4, .my-4 { margin-bottom: var(--distance-4); }
+.mt-5, .my-5 { margin-top: var(--distance-5); }
+.mb-5, .my-5 { margin-bottom: var(--distance-5); } /* 1rem */
 .mt-6, .my-6 { margin-top: var(--distance-6); }
 .mb-6, .my-6 { margin-bottom: var(--distance-6); } /* 1.5rem */
 .mt-8, .my-8 { margin-top: var(--distance-8); }
@@ -80,6 +84,10 @@
 .ml-15, .mx-15 { margin-left: var(--distance-15); }
 
 .m--4 { margin-left: -35rem;}
+
+.add-ml {
+    margin-left: 5rem;
+}
 
 /*
             PADDINGS
