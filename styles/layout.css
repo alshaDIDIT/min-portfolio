@@ -83,7 +83,7 @@
 .mr-15, .mx-15 { margin-right: var(--distance-15); }
 .ml-15, .mx-15 { margin-left: var(--distance-15); }
 
-.m--4 { margin-left: -35rem;}
+.m--4 { margin-left: -25rem;}
 
 .add-ml {
     margin-left: 5rem;
@@ -302,6 +302,30 @@ footer form button:hover {
 #drop-down {
     display: none;
 }
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: var(--color-secondary);
+  }
 
 /* 
             FOOTER LINK
@@ -314,6 +338,9 @@ footer form button:hover {
 /* 
             HOLD SIDE
 */
+.hold-top {
+    top: 0;
+}
 .hold-left {
     left: 0;
 }
@@ -350,3 +377,5 @@ footer form button:hover {
 .opacity-9 {
     opacity: 0.9;
 }
+
+/* DROPD */

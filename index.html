@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PJJ Entreprenad</title>
+    <title>Youssef Al Shadidi</title>
     <link
         rel="preconnect"
         href="https://fonts.googleapis.com"
@@ -30,7 +30,7 @@
 <body>
     <!-- NAV-BAR -->
     <nav class="d-flex max-width justify-content-between align-items-center bg-dark shadow-lg mx-auto p-4">
-        <p class="text-size-xl fw-sm text-bold text-dight text-dight ls-sm">YOUSSEF AL SHADIDI</p>
+        <p class="xxs-hide text-size-xl fw-sm text-bold text-dight text-dight ls-sm"><span class="xs-hide"> YOUSSEF </span>AL SHADIDI</p>
         
         <!-- MID LINKS -->
         <div class="d-flex justify-content-between m--4 d-sm-none text-bold">
@@ -63,10 +63,25 @@
             </a>
         </div>
 
-        <div class="d-flex justify-content-between bars">
+        <div class="d-flex justify-content-between bars mr-6">
+            <!-- DROPDOWN -->
+            <div class="dropdown">
+                <button class="py-2 px-4">
+                    <img class="country-logo" src="assets/countries/sweden.png" alt="">
+                    <label class="text-dark text-size-xs fw-sm">Svenska</label>
+                </button>
+                <div class="dropdown-content bg-white">
+                    <a href="">
+                        <img class="country-logo ml-2" src="assets/countries/usa.png" alt="">
+                        <label class="text-size-xs fw-sm">English</label>
+                    </a>
+                </div>
+              </div>            
+
+              <!-- DROWDOWN MENU -->
             <a class="d-flex flex-column align-items-center text-decoration-none position-relative d-none d-sm-block">
-                <div class="d-flex align-items-center justify-content-center bg-warning border-radius p-4 shadow-sm">
-                    <i class="fa fa-bars text-white"></i>
+                <div class="d-flex align-items-center justify-content-center mt-2">
+                    <i class="fa fa-bars text-white text-size-xxl"></i>
                 </div>
             </a>
         </div>
@@ -79,22 +94,22 @@
 
     <!-- WELCOME SIGN -->
     <section class="d-flex flex-column justify-content-center align-items-center mt-12 mb-15">
-        <h1 class="display text-uppercase">VÄLKOMMEN</h1>
+        <h1 class="display text-uppercase sm-head">VÄLKOMMEN</h1>
     </section>
 
     <!-- PORTFOLIO/CV -->
-    <section class="d-flex max-width justify-content-center align-items-center position-relative mx-auto bg-secondary border-radius shadow-sm mb-15">
+    <section class="broke-hide d-flex max-width justify-content-center align-items-center position-relative mx-auto bg-secondary border-radius shadow-sm mb-15">
         <!-- LEFT VINE -->
-        <img class="vine-xl-width position-absolute hold-left" src="assets/decoration/left-vine.png">
+        <img class="xxs-hide vine-xl-width position-absolute hold-left" src="assets/decoration/left-vine.png">
         
         <div class="d-flex justify-content-between p-15">
-            <div class="bg-dight border-radius-left">
+            <div class="xxs-hide xs-hide bg-dight border-radius-left">
                 <h1><i class="far fa-dot-circle opacity-6 p-4 mt-10 ml-4 mr-8"></i></h1>
             </div>
 
             <a class="text-dark" href="portfolio.html">
                 <div class="d-flex justify-content-center bg-dight p-6">
-                    <h1 class="fw-sm opacity-8"><i class="fas fa-suitcase text-size-xxl mb-1 mr-8"></i>PORTOLIO</h1>
+                    <h1 class="fw-sm opacity-8"><i class="xxs-hide fas fa-suitcase text-size-xxl mb-1 mr-8"></i>PORTOLIO</h1>
                 </div>
             </a>
             
@@ -104,21 +119,21 @@
 
             <a class="text-dark" href="cv.html">
                 <div class="d-flex justify-content-center bg-dight p-6">
-                    <h1 class="fw-sm opacity-8"><i class="fas fa-book text-size-xxl mb-1 mr-8"></i>CV</h1>
+                    <h1 class="fw-sm opacity-8"><i class="xxs-hide fas fa-book text-size-xxl mb-1 mr-8"></i>CV</h1>
                 </div>
             </a>
 
-            <div class="bg-dight border-radius-right">
+            <div class="xxs-hide xs-hide bg-dight border-radius-right">
                 <h1><i class="far fa-dot-circle opacity-6 p-4 mt-10 mr-4 ml-8"></i></h1>
             </div>
         </div>
 
         <!-- RIGHT VINE -->
-        <img class="vine-xl-width position-absolute hold-right" src="assets/decoration/right-vine.png">
+        <img class="xxs-hide vine-xl-width position-absolute hold-right" src="assets/decoration/right-vine.png">
     </section>
 
     <!-- ABOUT YOUSSEF -->
-    <section class="d-flex justify-content-center flex-wrap mt-lg">
+    <section class="d-flex max-width justify-content-center flex-wrap mt-lg mx-auto">
 
         <!-- YOUSSEF -->
         <h1 class="text-size-xxl fw-xs text-secondary text-uppercase sm-show">Profil</h1>
@@ -138,7 +153,7 @@
             </div>
             
             <!-- PROFILE IMAGE -->
-            <div class="width-lg flex-grow shadow-lg-left min-height-md first-image">
+            <div class="width-lg flex-grow shadow-lg-left min-height-md sm-hundred first-image">
                 <div class="min-width-xxl bg-index-right min-height-md"></div>
             </div>
         </section>
@@ -146,7 +161,7 @@
         <!-- FOCUS -->
         <h1 class="text-size-xxl fw-xs text-secondary text-uppercase mt-6 sm-show">Fokuserar på...</h1>
         <section class="d-flex youssef-size flex-wrap justify-content-center align-items-center border-radius mx-auto my-6">
-            <div id="focus" class="d-flex shadow-lg width-lg justify-content-between flex-grow min-height-md order-second">
+            <div id="focus" class="d-flex shadow-lg width-lg justify-content-between flex-grow min-height-md order-second sm-hundred">
                 <div class="min-width-xxl bg-index-left min-height-md"></div>
             </div>
             <!-- https://unsplash.com/license (https://unsplash.com/photos/5fNmWej4tAA) -->
@@ -179,7 +194,7 @@
                 </div>
                 </div>
             
-            <div id="love" class="width-lg flex-grow min-height-md shadow-lg-left">
+            <div id="love" class="width-lg flex-grow min-height-md shadow-lg-left sm-hundred">
                 <div class="min-width-xxl bg-index-right min-height-md"></div>
             </div>
             <!-- https://unsplash.com/license (https://unsplash.com/photos/r_8uWsy3QT8) -->
@@ -188,7 +203,7 @@
         <!-- LIKE -->
         <h1 class="text-size-xxl fw-xs text-secondary text-uppercase sm-show">Föredrar...</h1>
         <section class="d-flex youssef-size justify-content-center align-items-center border-radius mx-auto mt-6 mb-15">
-            <div id="like" class="width-lg flex-grow min-height-md shadow-lg order-second">
+            <div id="like" class="width-lg flex-grow min-height-md shadow-lg order-second sm-hundred">
                 <div class="min-width-xxl bg-index-left min-height-md"></div>
             </div>
             <!-- https://unsplash.com/license (https://unsplash.com/photos/r_8uWsy3QT8) -->
@@ -212,20 +227,20 @@
     <footer class="mt-15" id="footer">
 
         <!-- BODY END -->
-        <section class="d-flex max-width justify-content-center align-items-center position-relative mx-auto bg-dark border-radius shadow-sm py-8">
+        <section class="broke-hide d-flex max-width justify-content-center align-items-center position-relative mx-auto bg-dark border-radius shadow-sm py-8">
             <!-- LEFT VINE -->
-            <img class="vine-md-width position-absolute hold-left" src="assets/decoration/left-vine.png">
+            <img class="xs-hide vine-md-width position-absolute hold-left" src="assets/decoration/left-vine.png">
             
 
             <div class="d-flex flex-column justify-content-center align-items-center py-8">
                 <h1 class="fw-xs text-dight text-uppercase">
-                    <i class="fas fa-map-marker opacity-6 text-secondary mb-1 mr-4"></i>
+                    <i class="xxs-hide fas fa-map-marker opacity-6 text-secondary mb-1 mr-4"></i>
                     HÄR HITTAR DU MIG
                 </h1>
             </div>
 
             <!-- RIGHT VINE -->
-            <img class="vine-md-width position-absolute hold-right" src="assets/decoration/right-vine.png">
+            <img class="xs-hide vine-md-width position-absolute hold-right" src="assets/decoration/right-vine.png">
         </section>
 
         <!-- CONTACT -->
